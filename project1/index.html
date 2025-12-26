@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Skanda Apparel</title>
+  <title>Singh Collections</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <nav class="navbar" id="navbar">
-    <div class="logo">Skanda Apparel</div>
+    <div class="logo">Singh Collections</div>
     <ul class="nav-links" id="nav-links">
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
@@ -24,30 +24,80 @@
   </nav>
 
   <section id="home" class="section">
-    <h1>Welcome to Skanda Apparel</h1>
+    <h1>Welcome to Singh Collections</h1>
     <p>Your one-stop destination for trendy apparel, timeless classics, and custom-tailored outfits. Dress with style & confidence.</p>
   </section>
 
   <section id="about" class="section">
     <h1>About Us</h1>
-    <p>At Skanda Apparel, fashion meets comfort. Established in 2025, we specialize in premium-quality garments for men, women, and kids. Our designers curate each piece to ensure you look your best every day.</p>
+    <p>At Singh Collections, fashion meets comfort. Established in 2025, we specialize in premium-quality garments for men, women, and kids. Our designers curate each piece to ensure you look your best every day.</p>
   </section>
 
   <section id="collection" class="section">
     <h1>Our Collections</h1>
-    <p>Men’s Formal & Casual Wear</p>
-    <p>Women’s Dresses & Ethnic Wear</p>
-    <p>Kids’ Trendy Outfits</p>
-    <p>Custom Tailoring Services</p>
-    <p>Seasonal & Festive Collections</p>
+    <div class="collections-grid">
+      <div class="collection-card">
+        <h3>Men's Formal & Casual Wear</h3>
+        <p>Premium quality designs for the modern man</p>
+        <button class="btn btn-primary">Shop Now</button>
+      </div>
+      <div class="collection-card">
+        <h3>Women's Dresses & Ethnic Wear</h3>
+        <p>Elegant and stylish options for every occasion</p>
+        <button class="btn btn-primary">Shop Now</button>
+      </div>
+      <div class="collection-card">
+        <h3>Kids' Trendy Outfits</h3>
+        <p>Comfortable and colorful fashion for kids</p>
+        <button class="btn btn-primary">Shop Now</button>
+      </div>
+      <div class="collection-card">
+        <h3>Custom Tailoring Services</h3>
+        <p>Personalized fits tailored just for you</p>
+        <button class="btn btn-primary">Learn More</button>
+      </div>
+      <div class="collection-card">
+        <h3>Seasonal & Festive Collections</h3>
+        <p>Limited edition designs for special celebrations</p>
+        <button class="btn btn-primary">Explore</button>
+      </div>
+    </div>
   </section>
 
   <section id="contact" class="section">
     <h1>Contact Us</h1>
-    <p>Visit Us: 12 Nethaji Street, Pudhu Mandapam, Madurai</p>
-    <p>Call Us: +91-9876543210</p>
-    <p>Email: support@skandaapparel.com</p>
-    <p>Follow us on Instagram: @SkandaApparelOfficial</p>
+    <div class="contact-info">
+      <div class="contact-item" data-type="address">
+        <h3>📍 Visit Us</h3>
+        <p>Lakhisarai road, Sikandra,Jamui</p>
+        <span class="copy-hint">Click to copy</span>
+      </div>
+      <div class="contact-item" data-type="phone">
+        <h3>📞 Call Us</h3>
+        <p>+91-7480913284</p>
+        <span class="copy-hint">Click to copy</span>
+      </div>
+      <div class="contact-item" data-type="email">
+        <h3>📧 Email</h3>
+        <p>support@singhcollections.com</p>
+        <span class="copy-hint">Click to copy</span>
+      </div>
+      <div class="contact-item" data-type="social">
+        <h3>📱 Follow Us</h3>
+        <p>@singhcollections</p>
+        <span class="copy-hint">Click to copy</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="newsletter" class="section">
+    <h1>Stay Updated</h1>
+    <p>Subscribe to our newsletter for exclusive deals and new collections</p>
+    <form id="newsletter-form" class="newsletter-form">
+      <input type="email" id="email-input" placeholder="Enter your email" required>
+      <button type="submit" class="btn btn-primary">Subscribe</button>
+      <div id="form-message" class="form-message"></div>
+    </form>
   </section>
 
   <script src="script.js"></script>
