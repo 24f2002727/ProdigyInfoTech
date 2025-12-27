@@ -6,12 +6,12 @@ body {
   height: 100vh;
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #17a2b8;
+  background-color: #1d1e1e;
 }
 
 /* Stopwatch box */
 .stopwatch-container {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(40, 207, 236, 0.154);
   backdrop-filter: blur(10px);
   padding: 30px;
   border-radius: 20px;
@@ -81,7 +81,7 @@ h1 {
   border-radius: 8px;
   color: white;
   cursor: pointer;
-  transition: transform 0.2s, opacity 0.2s;
+  transition: transform 0s, opacity 0s;
 }
 
 .btn:hover {
