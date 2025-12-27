@@ -31,7 +31,7 @@ window.addEventListener("scroll", shrinkNavbar);
 
 
 const typingElement = document.querySelector(".home-section h2");
-const roles = ["Front-End Developer ", "UI/UX Enthusiast ", "Creative Designer "];
+const roles = ["Front-End Developer ", "UI/UX Enthusiast ", "Creative Designer ","Data Enthusiast"];
 let roleIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
