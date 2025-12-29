@@ -8,18 +8,18 @@
 body {
   min-height: 100vh;
   background:
-    linear-gradient(180deg, rgba(9,15,35,0.9), rgba(15,25,60,0.9)),
+    linear-gradient(180deg, rgba(14, 23, 51, 0.472), rgba(15,25,60,0.9)),
     url("./images/background.jpg") center/cover no-repeat;
   display: flex;
   justify-content: center;
   padding-top: 70px;
-  color: #eef3ff;
+  color: #f0f2f7;
 }
 
 /* Glass card */
 .glass {
   width: 100%;
-  max-width: 420px;
+  max-width: 500px;
   padding: 22px;
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.08);
@@ -39,6 +39,7 @@ body {
 .search {
   display: flex;
   gap: 10px;
+  min-width: 30vw;
 }
 
 .search input {

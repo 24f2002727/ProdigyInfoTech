@@ -1,4 +1,4 @@
-const apiKey = "7f784361cec84053497f0936aff89f4a";;
+const apiKey = "apikey";;
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 const geoApiUrl = "https://api.openweathermap.org/data/2.5/weather";
 const DEFAULT_CITY = "Delhi";
