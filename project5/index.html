@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
+
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
@@ -13,29 +14,33 @@
 <div class="card">
     <div class="search">
         <input type="text" placeholder="Enter city name" spellcheck="false">
-        <button id="loc-btn" style="display:none" title="Use my location">📍</button>
-        <button><img src="./images/search.png"></button>
+        <button id="loc-btn" title="Use my location">📍</button>
+        <button class="search-btn">
+            <img src="./images/search.png" alt="Search">
+        </button>
     </div>
-    <div class="error">
-        <p>Invalid City Name</p>
-    </div>
+
+    <div class="error"></div>
+
     <div class="weather">
-        <img src="./images/rain.png" class="weather-icon">
-        <h1 class="temp">22°c</h1>
-        <h2 class="city">New York</h2>
-        <p class="description">Rainy</p>
+        <img src="./images/cloud.png" class="weather-icon">
+        <h1 class="temp">--°C</h1>
+        <h2 class="city">City</h2>
+        <p class="description">---</p>
+
         <div class="details">
             <div class="col">
                 <img src="./images/humidity.png">
                 <div>
-                    <p class="humidity">50%</p>
+                    <p class="humidity">--%</p>
                     <p>Humidity</p>
                 </div>
             </div>
+
             <div class="col">
                 <img src="./images/wind.png">
                 <div>
-                    <p class="wind">15 km/h</p>
+                    <p class="wind">-- km/h</p>
                     <p>Wind Speed</p>
                 </div>
             </div>
@@ -44,6 +49,5 @@
 </div>
 
 <script src="script.js"></script>
-
 </body>
 </html>
